@@ -1,3 +1,4 @@
+```
 use mini_redis::{client::{self, Client},Result};
 
 #[tokio::main]
@@ -8,3 +9,4 @@ async fn main() -> Result<()> {
     println!("got value from server : {:?} ",result);
     Ok(())  
 }
+```
